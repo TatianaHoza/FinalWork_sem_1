@@ -5,7 +5,7 @@ for (int i = 0 ; i < array.Length;i++)
 {   
     if (array[i].Length <=3)
     new_array[temp] = array[i];
-    Console.Write($"{new_array[temp]}");
+    Console.Write($"['{new_array[temp]}']");
     temp++;
 }
 
